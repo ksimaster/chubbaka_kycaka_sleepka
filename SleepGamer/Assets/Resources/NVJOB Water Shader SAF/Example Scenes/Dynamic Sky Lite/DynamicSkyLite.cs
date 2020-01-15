@@ -1,7 +1,6 @@
 ﻿// Copyright (c) 2016 Unity Technologies. MIT license - license_unity.txt
 // #NVJOB Dynamic Sky Lite (Standard render) V2.2. MIT license - license_nvjob.txt
-// #NVJOB Dynamic Sky Lite (Standard render) - https://nvjob.github.io/unity/nvjob-dynamic-sky-lite
-// #NVJOB Nicholas Veselov - https://nvjob.github.io
+// #NVJOB Nicholas Veselov - https://nvjob.pro, http://nvjob.dx.am
 
 
 using UnityEngine;

@@ -1,36 +1,37 @@
 ﻿// Copyright (c) 2016 Unity Technologies. MIT license - license_unity.txt
-// #NVJOB Water Shader - simple and fast. MIT license - license_nvjob.txt
-// #NVJOB Water Shader - simple and fast V1.4.5 - https://nvjob.github.io/unity/nvjob-water-shader
-// #NVJOB Nicholas Veselov (independent developer) - https://nvjob.github.io
+// NVJOB Water Shader - simple and fast. MIT license - license_nvjob.txt
+// NVJOB Water Shader - simple and fast V1.4.4
+// #NVJOB Nicholas Veselov (independent developer) - https://nvjob.pro, http://nvjob.dx.am
 
 
 using UnityEngine;
 
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-[ExecuteInEditMode] // For DepthTextureMode
 
 
 public class Water : MonoBehaviour
 {
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-       
+
+        
 
     public float UvRotateSpeed = 0.4f;
     public float UvRotateDistance = 2.0f;
     public float UvBumpRotateSpeed = 0.4f;
     public float UvBumpRotateDistance = 2.0f;
-    public bool depthTextureModeOn = true;
 
     //---------------------------------
 
     Vector2 lwVector, lwNVector;
-    
+
+
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
     private void Awake()
@@ -44,20 +45,9 @@ public class Water : MonoBehaviour
     }
 
 
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-    void OnEnable()
-    {
-        //---------------------------------
-
-        if (depthTextureModeOn) Camera.main.depthTextureMode = DepthTextureMode.Depth;
-
-        //---------------------------------
-    }
-
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
     void Update()
@@ -76,6 +66,7 @@ public class Water : MonoBehaviour
 
         //---------------------------------
     }
+
 
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////

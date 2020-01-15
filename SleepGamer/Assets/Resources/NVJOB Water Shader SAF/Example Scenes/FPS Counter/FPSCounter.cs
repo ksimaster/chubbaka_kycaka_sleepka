@@ -1,6 +1,6 @@
 // MIT license - license_nvjob.txt (basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source)
-// #NVJOB FPS counter and graph - simple and fast V1.2 - https://nvjob.github.io/unity/nvjob-fps-counter-and-graph
-// #NVJOB Nicholas Veselov (independent developer) - https://nvjob.github.io
+// #NVJOB FPS counter and graph - simple and fast V1.2 - https://github.com/nvjob/Unity-FPS-Counter
+// #NVJOB Nicholas Veselov (independent developer) - https://nvjob.pro, http://nvjob.dx.am
 
 
 using UnityEngine;
